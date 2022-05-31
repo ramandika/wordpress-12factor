@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b7928adea8e4c4bd2f6e7164866f400c",
+    "content-hash": "a6cff9c7e96af95ea64f499cec2b88e0",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1780,6 +1780,42 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-theme/avril",
+            "version": "1.1.9",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/avril/",
+                "reference": "1.1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/avril.1.1.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/avril/"
+        },
+        {
+            "name": "wpackagist-theme/ayyash",
+            "version": "1.1.5",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/ayyash/",
+                "reference": "1.1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/ayyash.1.1.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/ayyash/"
         },
         {
             "name": "wpackagist-theme/suffice",
