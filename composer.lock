@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "11fb709d8042dc082d353cceece8e40d",
+    "content-hash": "ddaf5f7a47edc22ade61739a9d231f8c",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1780,6 +1780,60 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/sendgrid-email-delivery-simplified/"
+        },
+        {
+            "name": "wpackagist-plugin/vk-all-in-one-expansion-unit",
+            "version": "9.76.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/vk-all-in-one-expansion-unit/",
+                "reference": "tags/9.76.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/vk-all-in-one-expansion-unit.9.76.0.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/vk-all-in-one-expansion-unit/"
+        },
+        {
+            "name": "wpackagist-plugin/vk-block-patterns",
+            "version": "1.18.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/vk-block-patterns/",
+                "reference": "tags/1.18.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/vk-block-patterns.1.18.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/vk-block-patterns/"
+        },
+        {
+            "name": "wpackagist-plugin/vk-blocks",
+            "version": "1.36.1.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/vk-blocks/",
+                "reference": "tags/1.36.1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/vk-blocks.1.36.1.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/vk-blocks/"
         },
         {
             "name": "wpackagist-theme/avril",
