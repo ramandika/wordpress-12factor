@@ -38,7 +38,8 @@
     "dzuelke/twentyfifteen-child": "*",
     "wpackagist-theme/suffice": "^1.2.7",
     "wpackagist-theme/avril": "^1.1.9",
-    "wpackagist-theme/ayyash": "^1.1.5"
+    "wpackagist-theme/ayyash": "^1.1.5",
+    "wpackagist-theme/lightning": "^14.22.0"
   },
   "scripts": {
     "wordpress-setup-core-install-prompt": "wp core install --prompt",

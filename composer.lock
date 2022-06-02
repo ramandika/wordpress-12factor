@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a6cff9c7e96af95ea64f499cec2b88e0",
+    "content-hash": "11fb709d8042dc082d353cceece8e40d",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1816,6 +1816,24 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/ayyash/"
+        },
+        {
+            "name": "wpackagist-theme/lightning",
+            "version": "14.22.0",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/lightning/",
+                "reference": "14.22.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/lightning.14.22.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/lightning/"
         },
         {
             "name": "wpackagist-theme/suffice",
