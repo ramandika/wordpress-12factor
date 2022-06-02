@@ -107,15 +107,15 @@ $ heroku open
 1. You don't want such an exact version, but instead a more lenient selector like (in the case above) `^1.5.7` or at least `~1.5.7` (see the [Composer docs](https://getcomposer.org/doc/articles/versions.md#next-significant-release-operators) for details);
 1. Run `composer require wpackagist-$type/name:^$version`, for example:
 
-    ```
-    composer require wpackagist-plugin/akismet:^3.1.7
-    ```
-    
-    or
-    
-    ```
-    composer require wpackagist-plugin/hueman:^1.5.7
-    ```
+   ```
+   composer require wpackagist-plugin/akismet:^3.1.7
+   ```
+
+   or
+
+   ```
+   composer require wpackagist-plugin/hueman:^1.5.7
+   ```
 
 1. Run `git add composer.json composer.lock` and `git commit`;
 1. `git push heroku master`
@@ -214,10 +214,10 @@ Instead of having WordPress check on each page load if Cron Jobs need to be run 
 
 ### AWS/S3
 
-* `AWS_ACCESS_KEY_ID` or `BUCKETEER_AWS_ACCESS_KEY_ID` for the AWS Access Key ID;
-* `AWS_SECRET_ACCESS_KEY` `BUCKETEER_AWS_SECRET_ACCESS_KEY` for the AWS Secret Access Key;
-* `S3_BUCKET` or `BUCKETEER_BUCKET_NAME` for the name of the S3 bucket;
-* `S3_REGION` for a non-default S3 region name.
+- `AWS_ACCESS_KEY_ID` or `BUCKETEER_AWS_ACCESS_KEY_ID` for the AWS Access Key ID;
+- `AWS_SECRET_ACCESS_KEY` `BUCKETEER_AWS_SECRET_ACCESS_KEY` for the AWS Secret Access Key;
+- `S3_BUCKET` or `BUCKETEER_BUCKET_NAME` for the name of the S3 bucket;
+- `S3_REGION` for a non-default S3 region name.
 
 ### SendGrid
 
